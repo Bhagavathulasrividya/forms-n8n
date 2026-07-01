@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">username: </label>
+        <input type="text" id="name" name="user" placeholder="enter your name" autofocus value="85r" readonly> <br>
+        <label for="">password</label>
+        <input type="password" required minlength="5" maxlength="10"> <br>
+        <label for="">mailid: </label>
+        <input type="text" 
+        pattern="[a-z]+[0-9]+@gmail.com" title="the mail id contains small characters or numbers or !#$%^&* with @gmail.com"> <br>
+        <label for="">mobile:</label>
+        <input type="tel"> <br>
+        <label for="">age:</label>
+        <input type="number"> <br>
+        <label for="">DOB:</label>
+        <input type="date"> <br>
+        <label for="">gender:</label>
+        <input type="radio" name="gender"> male
+        <input type="radio" name="gender"> female <br>
+        <label for="">skills</label>
+        <input type="checkbox"> python
+        <input type="checkbox"> sql
+        <input type="reset"> <br>
+        <input type="search"> <br>
+        <input type="file">
+        <input type="submit" value="login">
+        <label for="">address</label>
+        <textarea name="" id=""></textarea>
+        <select name="" id="">
+            <option value="--select--" hidden>--select--</option>
+            <option value="html">html</option>
+            <option value="python">python</option>
+            <option value="sql"  disabled>sql</option>
+        </select>
+    </form>
+    </fieldset>
+</body>
+</html>
